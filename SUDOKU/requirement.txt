@@ -1,0 +1,15 @@
+# Project Requirements: Sudoku Game in Python
+
+## 1. Project Overview
+
+Develop a complete, interactive Sudoku game using Python with a modern Graphical User Interface (GUI). The application should allow users to solve Sudoku puzzles in a visually appealing environment with smooth interactions, multiple difficulty levels, and attractive game assets.
+
+## 2. Technology Requirements
+
+* **Programming Language:** Python 3.10+
+* **GUI Framework:** Tkinter or CustomTkinter
+* **Game Logic:** Python-based Sudoku generation and validation algorithms
+* **Assets:** PNG, SVG, or other suitable image formats for icons, backgrounds, buttons, and visual elements
+* **Data Storage:** JSON or SQLite for saving game progress and statistics
+
+##
