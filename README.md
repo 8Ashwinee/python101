@@ -1,110 +1,146 @@
-# 📝 Exam Management System (Python + MySQL)
+# 🐍 Python101 — The Python Project Gallery
 
-![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python)
-![MySQL](https://img.shields.io/badge/MySQL-Database-orange?logo=mysql)
-![Status](https://img.shields.io/badge/Status-Active-success)
+<div align="center">
 
-A **Python-based Exam Management System** integrated with **MySQL**.  
-This project provides a complete workflow for student login, exam invigilation, grading, and admin-level question management.
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&pause=1000&color=00D9FF&center=true&vCenter=true&width=700&lines=Welcome+to+Python101;Games+%7C+AI+%7C+Automation;Creative+Projects+Built+with+Python" alt="Python101 animated introduction" />
 
----
+**A visual collection of Python projects, experiments, games, and applications.**
 
-##  Features
+![Python](https://img.shields.io/badge/Python-Projects-3776AB?style=for-the-badge\&logo=python\&logoColor=white)
+![Category](https://img.shields.io/badge/Games-Apps-A855F7?style=for-the-badge)
+![Explore](https://img.shields.io/badge/Explore-The_Code-00C853?style=for-the-badge)
 
-###  Student Module
-- Secure login using stored credentials.
-- Add new student information (`info()`).
-- View all registered students (`studentlist()`).
-- Attempt exams with multiple-choice questions fetched from the database.
-- Automatic evaluation of answers with:
-  - **Total Marks**
-  - **Correct/Incorrect Answers**
-  - **Grade Assignment (A–Fail)**
-  - **Percentage Calculation**
-
-###  Admin Module
-- Secure admin login.
-- Manage exam questions:
-  - View all questions.
-  - Add new questions.
-  - Delete existing questions.
-- Full control over the exam database.
+</div>
 
 ---
 
-##  Project Structure
+## 🌌 Inside the Repository
 
-- **Database Connection:**  
-  Uses `mysql.connector` to connect with `project1` database.
+Welcome to my Python project gallery! This repository contains a collection of programs built with Python, ranging from interactive games and desktop applications to automation, computer vision, and data visualization.
 
-- **Functions:**  
-  - `studentlist()` → Displays all registered students.  
-  - `info()` → Inserts new student details into the database.  
-  - `invigilator()` → Conducts exam, tracks answers, calculates marks.  
-  - `grade()` → Assigns grade based on marks.  
-  - `percentage()` → Calculates percentage.  
-  - `admin_access()` → Admin panel for managing questions.  
+Each project represents a different application of Python.
 
-- **Main Menu Options:**  
-  - Student login  
-  - Admin login  
-  - Add/view student information  
-  - Exit  
+## 🎮 Games & Puzzles
+
+<div align="center">
+
+| Project                 | Description                     |
+| ----------------------- | ------------------------------- |
+| 🧩 **Sudoku**           | A number puzzle application     |
+| 🏎️ **Car Racing Game** | A racing game built with Python |
+| 🐍 **Snake Game**       | A classic arcade game           |
+| ♟️ **Chess**            | A chess-related project         |
+| 🗼 **Tower of Hanoi**   | A classic logic puzzle          |
+
+</div>
+
+## 🤖 AI & Computer Vision
+
+<div align="center">
+
+| Project                 | Description                       |
+| ----------------------- | --------------------------------- |
+| ✋ **AirCanvas**         | Gesture-based drawing exploration |
+| 👤 **Face Recognition** | Face recognition experiments      |
+| 🎓 **AI Attendance**    | An AI-related attendance project  |
+| 💬 **Local Chat**       | A local messaging application     |
+
+</div>
+
+## 🖥️ Applications & Utilities
+
+<div align="center">
+
+| Project                   | Description                         |
+| ------------------------- | ----------------------------------- |
+| 🎥 **Screen Recorder**    | A screen-recording application      |
+| 🏦 **Banking System**     | A banking application project       |
+| 📝 **Exam Management**    | An exam management system           |
+| 📩 **Scheduled Messages** | WhatsApp message scheduling         |
+| 📖 **Dictionary**         | A dictionary-related Python program |
+
+</div>
+
+## 📊 Data & Visualization
+
+<div align="center">
+
+| Project            | Description                        |
+| ------------------ | ---------------------------------- |
+| 📈 **Area Charts** | Visualizing data using area charts |
+| 📉 **Line Graphs** | Exploring trends with line graphs  |
+| 📊 **Bar Graphs**  | Comparing values visually          |
+| 🥧 **Pie Charts**  | Representing proportions           |
+| 🗃️ **DataFrames** | Working with structured data       |
+
+</div>
 
 ---
 
-##  Grading System
+## 🛠️ Technologies
 
-| Marks Range | Grade |
-|-------------|-------|
-| ≥ 17        | A     |
-| 13–16       | B     |
-| 9–12        | C     |
-| 5–8         | D     |
-| < 5         | Fail  |
+<div align="center">
 
----
+<img src="https://skillicons.dev/icons?i=python,mysql,git,github,vscode" alt="Python, MySQL, Git, GitHub and VS Code icons" />
 
-##  Tech Stack
-- **Language:** Python  
-- **Database:** MySQL  
-- **Connector:** `mysql.connector`  
+</div>
+
+Python is the primary language in this repository. Individual projects may use additional libraries, GUI frameworks, databases, or computer vision tools.
 
 ---
 
-##  Example Workflow
-1. Student/Admin selects login option.  
-2. Credentials validated against database (`studentids` / `adminids`).  
-3. Students attempt exam questions stored in `exam` table.  
-4. System auto-calculates marks, grade, and percentage.  
-5. Admins can add, view, or delete questions.  
+## 📂 Repository at a Glance
+
+```text
+🐍 python101/
+│
+├── 🎮 Games & Puzzles
+│   ├── SUDOKU/
+│   ├── car_racing_game/
+│   ├── SNAKEgame.py
+│   └── chessmain.py
+│
+├── 🤖 AI & Computer Vision
+│   ├── AirCanvas.py
+│   ├── FaceRecognition.py
+│   └── ai_attendence/
+│
+├── 🖥️ Applications
+│   ├── Local_chat/
+│   ├── screen_recorder/
+│   ├── BANKING_SYSTEM/
+│   └── dictionary.py
+│
+└── 📊 Data Visualization
+    ├── area.chart.py
+    ├── bar.graph.py
+    ├── line.graph.py
+    ├── pie.graph.py
+    └── data-frame.py
+```
+
+*This is a visual grouping of selected projects, not the exact physical folder structure. Browse the repository to see all files and their actual locations.*
 
 ---
 
-##  ER Diagram
+## ▶️ Explore the Code
 
-```mermaid
-erDiagram
-    STUDENTIDS {
-        string username
-        string password
-        int studentid
-    }
+Clone the repository to explore the projects locally.
 
-    ADMINIDS {
-        string username
-        string password
-    }
+```bash
+git clone https://github.com/8Ashwinee/python101.git
+cd python101
+```
 
-    EXAM {
-        int id
-        string question
-        string optionA
-        string optionB
-        string optionC
-        string optionD
-        string answer
-    }
+Open a project in VS Code or your preferred editor. Check its files for the correct entry point and any dependencies before running it.
 
-    STUDENTIDS ||--o{ EXAM : "attempts"
-    ADMINIDS ||--o{ EXAM : "manages"
+---
+
+<div align="center">
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1200&color=7C3AED&center=true&vCenter=true&width=650&lines=One+Language.;Many+Possibilities.;Endless+Ways+to+Build." alt="Animated Python motto" />
+
+**🐍 Python101 — A gallery of code, creativity, and ideas.**
+
+</div>
+
