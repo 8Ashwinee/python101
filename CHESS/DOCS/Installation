@@ -1,0 +1,72 @@
+
+# Installation and Setup
+
+## Prerequisites
+
+- Python 3 installed.
+- Internet access to download chess-piece images at startup.
+- A desktop environment capable of opening a Pygame window.
+
+The original source does not specify a tested Python version. Use a current Python 3 release and verify package compatibility.
+
+## Windows PowerShell
+
+Run these commands from the project directory:
+
+```powershell
+py -m venv .venv
+.\.venv\Scripts\python.exe -m pip install --upgrade pip
+.\.venv\Scripts\python.exe -m pip install -r requirements.txt
+.\.venv\Scripts\python.exe main.py
+```
+
+These commands do not require activating the virtual environment.
+
+## Windows Command Prompt
+
+```bat
+py -m venv .venv
+.venv\Scripts\activate.bat
+python -m pip install -r requirements.txt
+python main.py
+```
+
+## macOS / Linux
+
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+python -m pip install --upgrade pip
+python -m pip install -r requirements.txt
+python main.py
+```
+
+## Troubleshooting
+
+### Python is not recognized
+
+Install Python and enable PATH integration, or try `py` on Windows.
+
+### Pygame cannot open a window
+
+Run the game in a desktop environment with graphical support.
+
+### Image download fails
+
+Check your internet connection and confirm the remote image URLs are still accessible.
+
+### rembg installation fails
+
+Consult the package's current installation guidance. Its runtime dependencies may vary by operating system.
+
+### Font loading error
+
+The code loads `freesansbold.ttf` by filename. Ensure the font is available in the working directory or change the code to use a known font path.
+
+### Image decoding error
+
+Add HTTP status checks and verify the downloaded response contains valid image data before loading it into Pygame.
+
+## Source filename
+
+If your Python script is not named `main.py`, replace `main.py` in the commands with your actual filename.
